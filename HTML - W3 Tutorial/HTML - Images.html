@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      function coffee(){
+        alert("That's a coffee cup. It's not hot though.")
+      }
+    </script>
+  </head>
+  <body>
+    <h3>Click in something</h3>
+    <img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+
+    <map name="workmap">
+      <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.html">
+      <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.html">
+      <area shape="circle" coords="337,300,44" alt="Coffee" onclick="coffee()">
+    </map>
+
+    <p><small>Not that it will work, but yeah, click it</small></p>
+  </body>
+</html>
